@@ -1,0 +1,51 @@
+.container-box {
+  background-color: lightblue;
+  padding: 1rem;
+  min-height: 100vh;
+}
+.userbox {
+  display: flex;
+  justify-content: space-between;
+}
+.userimg {
+  border: 1px dotted black;
+  border-radius: 50%;
+}
+.logoutbtn {
+  float: right;
+  margin: 1rem;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+}
+.file-section {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.eachfilese {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 2rem;
+}
+.imgofic {
+  display: block;
+}
+.dwnbtn,
+.uploadbtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.dwnbtn {
+  width: 100%;
+}
+.hfilehead {
+  max-width: 50px;
+}
